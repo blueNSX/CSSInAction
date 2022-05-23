@@ -54,9 +54,12 @@ toggleButton.addEventListener("click", function() {
   }, 10);
 });
 
-ctaButton.addEventListener('animationstart', function(event) {
-  console.log('Animation started', event);
-})
+/*ctaButton.addEventListener('animationstart', ctaButton_onClick )*/
+
+function ctaButton_onClick (event ) {
+  //alert("animation started")
+  console.log('Animation started', event);  
+}
 
 ctaButton.addEventListener('animationend', function(event) {
   console.log('Animation ended', event);

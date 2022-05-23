@@ -14,11 +14,15 @@
 main {
     padding-top: 1rem;
 }
-
+.signup-page {
+    background: cornflowerblue;
+}
 .signup-title {
+    font-family: "Bookman Old Style";
     text-align: center;
-    font-size: 1.8rem;
-    color: #ff5454;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
 }
 
 .signup-form {
@@ -26,6 +30,8 @@ main {
     display: grid;
     grid-auto-rows: 2rem;
     grid-row-gap: 0.5rem;
+    background: cornflowerblue;
+    height: 400px;
 }
 
 .signup-form label {
@@ -79,12 +85,13 @@ main {
 .signup-form input.invalid,
 .signup-form select.invalid,
 .signup-form :invalid {
-    border-color: red !important;
+    border-color: darkblue !important;
     background: #faacac;
 }
 
 .signup-form button[type="submit"] {
     display: block;
+    background: darkblue;
 }
 
 @media (min-width: 40rem) {
