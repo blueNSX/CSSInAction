@@ -67,19 +67,34 @@ body {
   padding: 10px;
 }
 
-.body-section h1 {
-  border: red dashed 10px;
+.image-section h1 {
+  background-image: url("images/monaco-blue.jpg");
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-size: 800px 400px;
+  background-repeat: no-repeat; 
+  border: yellow dashed 2px;
+  /*color: black;*/
+  /*background: cornflowerblue;*/
+  height: 400px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.main-section h1 {
+  border: red dashed 2px;
   color: black;
   background: cornflowerblue;
-  height: 900px;
+  height: 500px;
   margin: 0px;
   padding: 0px;
   text-align: center;
   vertical-align: center;
-  line-height: 950px;
-
+  
 }
-
 @media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
     height: 35vh;
