@@ -1,21 +1,10 @@
-.formr {
-    font-family: "Anton", sans-serif;
-    color: white;
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-  }
-  
-  .formr::first-letter {
-    font-size: 25px;
-    color: cornflowerblue;
-  }
+
 
 main {
     padding-top: 1rem;
 }
 .signup-page {
-    background: cornflowerblue;
+    background: white;
 }
 .signup-title {
     font-family: "Bookman Old Style";
@@ -30,7 +19,7 @@ main {
     display: grid;
     grid-auto-rows: 2rem;
     grid-row-gap: 0.5rem;
-    background: cornflowerblue;
+    /*background: cornflowerblue;*/
     height: 400px;
 }
 
@@ -85,7 +74,7 @@ main {
 .signup-form input.invalid,
 .signup-form select.invalid,
 .signup-form :invalid {
-    border-color: darkblue !important;
+    border-color: red !important;
     background: #faacac;
 }
 

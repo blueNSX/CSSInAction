@@ -14,13 +14,7 @@
 
 <body>
     <div class="backdrop"></div>
-    <div class="modal">
-        <h1 class="modal__title">Do you want to continue?</h1>
-        <div class="modal__actions">
-            <a href="start-hosting/index.html" class="modal__action">Yes!</a>
-            <button class="modal__action modal__action--negative" type="button">No!</button>
-        </div>
-    </div>
+
     <header class="main-header">
         <div>
             <button class="toggle-button">
@@ -30,17 +24,14 @@
             </button>
             
             <a href="index.html" class="main-header__brand">
-                <!--<img src="images/uhost-icon.png" alt="uHost - Your favorite hosting company">-->
-                <!--<img src="images/FormR-LogoBlack.gif" alt="FormR">-->
-                <img src="images/FormR_Logo_Robin.gif" alt="FormR">
-                <!--<h1 class="formr">FormR</h1>-->
+                <span class="text-f-med">f</span></span><span class="text-orm-med">orm<span class="text-r-med">r</span>
             </a>
 
         </div>
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
-                    <a href="#">Home</a>
+                    <a href="#">Link</a>
                 </li>
                 <li class="main-nav__item">
                     <a href="#">FAQ</a>
@@ -50,7 +41,7 @@
                 </li>
 
                 <li class="main-nav__item main-nav__item--cta">
-                    <a href="start-hosting/index.html" onclick="ctaButton_onClick (event)">Register</a>
+                    <a href="start-hosting/index.html" onclick="ctaButton_onClick (event)">Sign In</a>
                 </li>
             </ul>
         </nav>
@@ -70,34 +61,28 @@
             </li>
         </ul>
     </nav>
-    <!--<section id="product-overview">-->
-        <!--<img class="product-image" src="images/monaco-blue.jpg" height="120%" width="100%">-->
-        <!--<h1>
-            <br><br><br>
-            <img src="images/blueNSXsFormR.gif" width="80%">
-        </h1>-->
-    <!--</section>-->
 
-    <main class="images-main-section">
-        <div class="image-section">
+        <imagesection id="image-section">
+           <!--<img src="images/monaco-blue-soft.jpg" height="150%" width="100%">-->
             <h1>
-                <!--<img  src="images/monaco-blue.jpg" height="100%" width="100%">-->
-                <br><br><br><br><br><br>
-            <img src="images/blueNSXsFormR.gif" width="80%">  
-            </h1>          
-        </div>
-        
-        <div class="main-section">
-            <h1>   
-            <br><br><br><br><br><br>
-                &#60;main-section&#62;
+                <!--<br><br><br>-->
+                <span class="text-b">b</span><span class="text-luensx">lueNSX's</span>
+                <span class="text-f-med">f</span><span class="text-orm-med">orm<span class="text-r-med">r</span>    
             </h1>
-        </div>
-    </main>
- 
-      
+        </imagesection>
+    
+        <bodysection class="body-section">
+                <h1>    
+                    &#60;bodysection&#62;
+                </h1>
+        </bodysection>
+          
     <footer class="main-footer">
-        <nav>
+<!-- allows a smaller formR logo in the footer
+            <h1 id="footer-logo">
+                <span class="text-f-sm">f</span><span class="text-orm-sm">orm</span><span class="text-r-sm">r</span>
+            </h1>
+-->
             <ul class="main-footer__links">
                 <li class="main-footer__link">
                     <a href="#">Support</a>
@@ -108,7 +93,8 @@
             </ul>
         </nav>
     </footer>
-     <script src="shared.js"></script>
 </body>
+     <script src="shared.js"></script>
+
 
 </html>
