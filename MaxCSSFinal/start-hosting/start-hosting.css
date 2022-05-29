@@ -80,7 +80,7 @@ main {
 
 .signup-form button[type="submit"] {
     display: block;
-    background: darkblue;
+    background: rgb(124, 206, 124);
 }
 
 @media (min-width: 40rem) {

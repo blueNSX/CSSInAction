@@ -194,16 +194,15 @@ main {
 }
 
 .main-footer {
+  position:relative;
+  top: 450px;
   /*border: green solid 10px;*/
   /*border-top: darkblue 2px solid;*/
   background: #3ADD63; 
-  /*background: rgb(75, 136, 248);*/
-  /*background: black;*/
-  /*background:rgb(115, 178, 185);*/
   padding: 0rem;
   margin-top: 0px;
-  /* grid-row: 3 / 4; */
-  grid-area: footer;
+  /*grid-row: 3 / 4;*/ 
+  /*grid-area: footer;*/
 }
 
 .main-footer__links {

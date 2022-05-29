@@ -39,17 +39,17 @@ body {
 
 
 .body-section h1 {
- /* border: blue solid 5px;*/
+  /*border: blue solid 5px;*/
+  top: 500px; 
   color: black;
-  background: white;
-  height: 700px;
-  margin-bottom: 5%;
-  /*position: relative;
-  margin: 0px;
-  padding: 0px;
+  background: #ccc;
+  height: 400px;
+ /* margin-top: 5%;*/
+  position: relative;
+  padding-top: 100px;
   text-align: center;
   vertical-align: middle;
-  line-height: 1000px;*/
+  /*line-height: 300px;*/
 
 }
 
